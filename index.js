@@ -12,7 +12,11 @@ app.use(express.urlencoded({ extended: true }));
 
 
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: [
+    "https://client-iota-lilac.vercel.app",
+    "https://client-git-master-johns-projects-436843b3.vercel.app",
+    "https://client-chkkyw3ko-johns-projects-436843b3.vercel.app/",
+  ],
   credentials: true,
   optionSuccessStatus: 200,
 };
