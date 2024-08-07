@@ -1,7 +1,7 @@
 Blog App API - Documentation
 
 App Base Url
-http://localhost:4000
+https://server-a8kk.onrender.com
 
 
 Admin User:
